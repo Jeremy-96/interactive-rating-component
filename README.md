@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Interactive-rating-component solution >>](https://github.com/Jeremy-96/interactive-rating-component)
-- Live Site URL: [View the page >>](https://your-live-site-url.com)
+- Live Site URL: [View the page >>](https://jeremy-96.github.io/interactive-rating-component/)
 
 ## My process
 
