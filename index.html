@@ -11,44 +11,53 @@
   <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Interactive rating component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <main>
+    <section class="container">
+      <!-- Rating state start -->
+      <article class="rating-bloc">
+        <div class="icon-star">
+          <img src="./images/icon-star.svg" alt="icon-star">
+        </div>
 
-  <!-- Rating state start -->
+        <h2 class="title">How did we do?</h2>
 
-  How did we do?
+        <p class="paragraph">
+          Please let us know how we did with your support request. All feedback is appreciated 
+          to help us improve our offering!
+        </p>
+        <div class="selector">
+          <span class="rating-value">1</span>
+          <span class="rating-value">2</span>
+          <span class="rating-value">3</span>
+          <span class="rating-value">4</span>
+          <span class="rating-value">5</span>
+        </div>
+        <button class="submit-btn">SUBMIT</button>
+      </article>
+      <!-- Rating state end -->
 
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
+      <!-- Thank you state start -->
+      <article class="thanks">
+        <div class="thank-you">
+          <img src="./images/illustration-thank-you.svg" alt="thank-you">
+        </div>
+        <p class="bubble">   You selected<span class="storage-value"></span>out of 5 </p>
 
-  1 2 3 4 5
-
-  Submit
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
-
+        <h2 class="title">Thank you!</h2>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/Jeremy-96">@Jeremy-96</a>.
-  </div>
+        <p class="thank-paragraph">We appreciate you taking the time to give a rating. If you ever need more support, 
+          don’t hesitate to get in touch!</p>  
+      </article>
+      <!-- Thank you state end -->
+    </section>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Jeremy-96">@Jeremy-96</a>.
+    </div>
+  </main>
 
   <script defer src="index.js"></script>
 </body>
